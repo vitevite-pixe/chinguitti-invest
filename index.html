@@ -25,7 +25,7 @@
     nav a:hover{opacity:.8;}
     .lang-switcher { position: absolute; top: 12px; right: 20px; }
     .lang-switcher a { color: white; font-weight: 500; margin-left: 15px; text-decoration: none; }
-    .hero{background-color: var(--primary); padding:120px 20px; text-align:center; color:#fff;}
+    $1background-color: #ffffff; padding:120px 20px; text-align:center; color:#fff;}
     .hero h1{font-size:3rem;font-weight:700;text-shadow:0 2px 4px rgba(0,0,0,.4);color:var(--primary-light);}
     .hero p{font-size:1.2rem;margin:20px 0 30px;max-width:700px;margin-inline:auto;color:#f97316;}
     .btn{background:#fff;color:var(--primary);padding:12px 28px;border-radius:30px;font-weight:600;text-decoration:none;transition:.3s;display:inline-block;}
@@ -58,18 +58,10 @@
   <header>
     <div class="nav-container">
       <a href="#" class="nav-brand">Chinguitti pour l'investissement</a>
-      <nav>
-        <ul>
-          <li><a href="#about">À propos</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#partners">Partenaires</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
+      $1
+<div class="lang-switcher" style="margin-left:auto;"><a href="#" onclick="switchLang('fr')">FR</a> | <a href="#" onclick="switchLang('en')">EN</a></div>
       </nav>
-      <div class="lang-switcher">
-        <a href="#" onclick="switchLang('fr')">FR</a> |
-        <a href="#" onclick="switchLang('en')">EN</a>
-      </div>
+      
     </div>
   </header>
 
@@ -120,3 +112,4 @@
   </script>
 </body>
 </html>
+
